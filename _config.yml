@@ -6,37 +6,78 @@ github_repo: drchanmp.github.io
 github_username: drchanmp
 theme_color: light
 remote_theme: internet-de-france/athena
-baseurl: /
+baseurl: " "
+permalink: "/:title:output_ext"
+
+collections:
+  authors:
+    output: true
+
 defaults:
   - scope:
-      path: ''
-      type: pages
+      path: "section/*/special-page.html"
     values:
-      category_name: Pages
+      layout: "specific-layout"
   - scope:
-      path: ''
-      type: posts
+      path: " "
+      type: "authors"
     values:
-      categories: Posts
+      category: "Profile"
+  - scope:
+      path: " "
+      type: "home"
+    values:
+      category: "Home"
+  - scope:
+      path: " "
+      type: "pages"
+    values:
+      category: "Pages"
+  - scope:
+      path: " "
+      type: "posts"
+    values:
+      category: "Posts"
+  - scope:
+      path: " "
+      type: "blogs"
+     value:
+       category: "Blogs"
+  - scope:
+      path: " "
+      type: "projects"
+     value:
+       category: "Projects"
+
 remote_theme_layouts:
-  - ''
+  - " "
   - default
   - page
   - post
   - home
+  - blog
+  - project
   - category_index
+
 social_links:
   - twitter
-  - instagram
+  - mastodon
   - medium
   - linkedin
+
 theme_colors:
   - light
   - black
-  - blue
   - gray
   - magenta
   - orange
-  - red
-  - white
-  - yellow
+
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+       paginate: 5
+  - jekyll-remote-theme
+  - github-pages
