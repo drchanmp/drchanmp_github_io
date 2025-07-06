@@ -1,18 +1,17 @@
-
 # SEO
-title: Athena Jekyll Theme
-description: A simple and elegant theme for Jekyll and GitHub Pages.
+title: Drchanmp's Blog
+description: Personal Blog based on Jekyll and GitHub Pages.
 
 # social
-social_link: twitter
-social_username: broccolini
-github_repo: athena # the GitHub repo name for your project
-github_username: broccolini
-theme_color: light
+social_link: mastodon
+social_username: drchanmp
+github_repo: drchanmp.github.io # the GitHub repo name for your project
+github_username: drchanmp
+theme_color: blue
 
 # Theme
 remote_theme: 'internet-de-france/athena'
-baseurl: '/drchanmp_github_io'
+baseurl: '/drchanmp.github.io'
 
 # Defaults
 
@@ -22,13 +21,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      category_name: ""
+      category_name: "Pages"
   -
     scope:
       path: ""
       type: "posts"
     values:
-      categories: ""
+      categories: "Posts"
 
 # Stastic UI
 remote_theme_layouts: 
@@ -42,7 +41,7 @@ social_links:
   - twitter
   - instagram
   - medium
-  - dribbble
+  - linkedin
 
 theme_colors:
   - light
