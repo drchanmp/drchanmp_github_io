@@ -4,7 +4,7 @@ social_link: twitter
 social_username: drcklinn
 github_repo: drchanmp.github.io
 github_username: drchanmp
-theme_color: blue
+theme_color: light
 remote_theme: internet-de-france/athena
 baseurl: /
 defaults:
