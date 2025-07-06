@@ -1,0 +1,57 @@
+# SEO
+title: Drchanmp's Blog
+description: Personal Blog based on Jekyll and GitHub Pages.
+
+# social
+social_link: mastodon
+social_username: drchanmp
+github_repo: drchanmp.github.io # the GitHub repo name for your project
+github_username: drchanmp
+theme_color: blue
+
+# Theme
+remote_theme: 'internet-de-france/athena'
+baseurl: '/drchanmp.github.io'
+
+# Defaults
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      category_name: "Pages"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      categories: "Posts"
+
+# Stastic UI
+remote_theme_layouts: 
+  - ""
+  - default
+  - page
+  - post
+  - home
+  - category_index
+social_links:
+  - twitter
+  - instagram
+  - medium
+  - linkedin
+
+theme_colors:
+  - light
+  - black
+  - blue
+  - gray
+  - magenta
+  - orange
+  - red
+  - white
+  - yellow
+
+
