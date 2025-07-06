@@ -1,10 +1,9 @@
 ---
 layout: home
-permalink: "/"
-title: Athena Jekyll Theme
+permalink: /
+title: Drchanmp's Blog
 
 ---
-
-A simple and elegant theme for Jekyll and GitHub Pages.
+Personal Blog based on Jekyll and GitHub Pages.
 
 
