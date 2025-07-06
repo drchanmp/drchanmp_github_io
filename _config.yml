@@ -6,7 +6,7 @@ github_repo: drchanmp.github.io
 github_username: drchanmp
 theme_color: blue
 remote_theme: internet-de-france/athena
-baseurl: /drchanmp.github.io
+baseurl: /
 defaults:
   - scope:
       path: ''
